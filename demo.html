@@ -19,8 +19,8 @@
 }
 
 body {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
     background-color: white;
     font-family: Helvetica, sans-serif;
 }
@@ -83,7 +83,8 @@ body {
   color: rgba(0,0,0,.09);
   font-size: 18px;
   border-radius: 20px;
-  
+  margin-top: -285px;
+  margin-left: 390px;
 }
 
 .btn:hover{
@@ -95,31 +96,32 @@ body {
   color: white;
   font-size: 18px;
   border-radius: 20px;
-  
+  margin-top: -285px;
+  margin-left: 390px;
 }
 
 
 
 /*
 .btn{
-	background:linear-gradient(45deg, rgba(255,133,112,0,0.65) 0%, rgba(255,94,185,0.65)51%,rgba(230,39,125,0.65) 100%);
+  background:linear-gradient(45deg, rgba(255,133,112,0,0.65) 0%, rgba(255,94,185,0.65)51%,rgba(230,39,125,0.65) 100%);
 
-	border-radius: 4px;
-	padding: 20px 48px;
-	color: #FFFFFF;
-	font: 20px 'Neuton',serif;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
-	-webkit-transition:box-shadow is ease;
-	transition: box-shadow is ease;
+  border-radius: 4px;
+  padding: 20px 48px;
+  color: #FFFFFF;
+  font: 20px 'Neuton',serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+  -webkit-transition:box-shadow is ease;
+  transition: box-shadow is ease;
 }
 .btn:hover{
-	color: white;
-	box-shadow: 0px 2px 4px #fce4ec;
-	-webkit-transition:box-shadow is ease;
-	transition: box-shadow is ease;
+  color: white;
+  box-shadow: 0px 2px 4px #fce4ec;
+  -webkit-transition:box-shadow is ease;
+  transition: box-shadow is ease;
 }
 */
 .sticky + .content {
@@ -130,11 +132,11 @@ body {
 }
 
 .contact:hover{
-	color: grey;
+  color: grey;
   font-family: 'Berkshire Swash', cursive;
-	text-shadow: 4px 8px 12px rgba(0,0,0,0.3);
-	-webkit-transition:box-shadow is ease;
-	transition: box-shadow is ease;
+  text-shadow: 4px 8px 12px rgba(0,0,0,0.3);
+  -webkit-transition:box-shadow is ease;
+  transition: box-shadow is ease;
   transition: .1s;
   transition-delay: .1s;
 }
@@ -202,10 +204,8 @@ box-shadow: 4px 4px 4px #ef5350;
   transition: box-shadow is ease;
 }
 /*project*/
-.rowproject1::after {
-  content: "";
-  clear: both;
-  display: table;
+.rowproject1 {
+    display: flex;
 }
 .pro:hover{
   box-shadow: 10px 10px 10px #757575;
@@ -216,9 +216,9 @@ box-shadow: 4px 4px 4px #ef5350;
 }
 /* Create three equal columns that sits next to each other */
 .columnproject1 {
-  float: left;
-  width: 50%;
-  padding: 5px;
+  margin: 0;
+    flex: 33.33%;
+    padding: 0;
 }
 
 /*read more*/
@@ -263,7 +263,7 @@ box-shadow: 4px 4px 4px #ef5350;
 /*hackerrank*/
 .columnhack {
   float: left;
-  width: 33.33%;
+  width: 33.3%;
   margin-bottom: 16px;
   padding: 0 15px;
 }
@@ -590,7 +590,7 @@ box-shadow: 4px 4px 4px #00a78e;
 <body>
 
 <div id="home" class="header">
-  <!--div class="btn">
+  <div class="btn">
     <br>
     <h3 style="font-family: Quintessential, cursive;text-align: center;"><b>Welcome Finally, You are here!</b></h3>
     <h3 style="font-family: Quintessential, cursive;text-align: center;">I'M <b>SANJAY KRISHNAMOORTHY</b></h3>
@@ -643,7 +643,7 @@ box-shadow: 4px 4px 4px #00a78e;
 
 
 <br>
-  </div-->
+  </div>
 </div>
 
 <div id="navbar">
@@ -660,10 +660,10 @@ box-shadow: 4px 4px 4px #00a78e;
   <br><br><br><br>
   <h1 class="contact" style="text-align: center;color: black;"><b>EDUCATION DETAILS</b></h1>
   <br><br>
-	<div class="row">
+  <div class="row">
   <div class="column">
     <div class="card">
-      <img class="cardimg" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/Mkce.jpg?raw=true" alt="Jane" style="width:100%;height: 260px;">
+      <img class="cardimg" src="mk.jpg" alt="Jane" style="width:100%;height: 260px;">
       <div class="container">
         <h3 style="color:#ff4444">B.E.COMPUTER SCIENCE AND ENGINEERING - 2019 (pursuing)</h3>
         <p class="title" >M.KUMARASAMY COLLEGE OF ENGINEERING, KARUR</p>
@@ -674,7 +674,7 @@ box-shadow: 4px 4px 4px #00a78e;
 
   <div class="column">
     <div class="card">
-      <img class="cardimg" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/viv.jpg?raw=true" alt="Mike" style="width:100%;height: 260px;">
+      <img class="cardimg" src="viv.jpg" alt="Mike" style="width:100%;height: 260px;">
       <div class="container">
         <h3 style="color:#ff4444">HIGHER SECONDARY CERTIFICATE <br>- 2015</h3>
         <p class="title">VIVEKANANDHA HR.SEC.SCHOOL, PAUNDAMANGALAM</p>
@@ -684,7 +684,7 @@ box-shadow: 4px 4px 4px #00a78e;
   </div>
   <div class="column">
     <div class="card">
-      <img class="cardimg" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/viv.jpg?raw=true" alt="John" style="width:100%;height: 260px;">
+      <img class="cardimg" src="viv.jpg" alt="John" style="width:100%;height: 260px;">
       <div class="container">
         <h3 style="color:#ff4444">SECONDARY SCHOOL LEAVING CERTIFICATE - 2013</h3>
         <p class="title">VIVEKANANDHA HR.SEC.SCHOOL, PAUNDAMANGALAM</p>
@@ -722,14 +722,15 @@ box-shadow: 4px 4px 4px #00a78e;
 
 <br>
 <div  style="padding: 40px;">
-  <div class="rowproject1 pro" style="background-color: white;">
+  <div class="rowproject1 pro" style="background-color: white">
   <div class="columnproject1">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/back1.jpg?raw=true"  style="width:100%;height: 100%">
+    <img src="back1.jpg"  style="width:100%;height: 100%">
   </div>
   <div class="columnproject1" style="padding: 30px;">
     <center>FILES SPLITER</center>
     <br>
     <p>ROLE <br>   Frontend Developer <br><br>SKILL USED <br>   c# <br><br>DESCRIPTION <br>    To split the large file into different small files and store it in different locations.Through this we can achieve security  </p>
+    <br><br><br><br><br><br><br><br><br><br>
 
   </div>
 </div>
@@ -744,11 +745,12 @@ box-shadow: 4px 4px 4px #00a78e;
   <div class="columnproject1" style="padding: 30px;">
     <center>HOME AUTOMATION</center>
     <br>
-    <p>ROLE <br>   Frontend Developer <br><br>SKILL USED <br>   c# <br><br>DESCRIPTION <br>    To split the large file into different small files and store it in different locations.Through this we can achieve security  </p>
+    <p>To split the large file into different small files and store it in different locations.Through this we can achieve security </p>
+    <br><br><br><br><br><br><br><br><br><br>
 
   </div>
   <div class="columnproject1">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/back1.jpg?raw=true.jpg"  style="width:100%;height: 100%">
+    <img src="back6.jpg"  style="width:100%;height: 100%">
   </div>
 </div>
 </div>
@@ -757,12 +759,13 @@ box-shadow: 4px 4px 4px #00a78e;
 <div style="padding: 40px;">
   <div class="rowproject1 pro" style="background-color: white;">
   <div class="columnproject1">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/back1.jpg?raw=true"  style="width:100%;height: 100%">
+    <img src="back7.jpg"  style="width:100%;height: 100%">
   </div>
   <div class="columnproject1" style="padding: 30px;">
     <center>OBSTACLE AVOIDANCE ROBOT</center>
     <br>
-    <p>ROLE <br>   Frontend Developer <br><br>SKILL USED <br>   c# <br><br>DESCRIPTION <br>    To split the large file into different small files and store it in different locations.Through this we can achieve security  </p>
+    <p>To split the large file into different small files and store it in different locations.Through this we can achieve security </p>
+    <br><br><br><br><br><br><br><br><br><br>
     
   </div>
 </div>
@@ -774,11 +777,12 @@ box-shadow: 4px 4px 4px #00a78e;
   <div class="columnproject1" style="padding: 30px;">
     <center>HOME AUTOMATION</center>
     <br>
-    <p>ROLE <br>   Frontend Developer <br><br>SKILL USED <br>   c# <br><br>DESCRIPTION <br>    To split the large file into different small files and store it in different locations.Through this we can achieve security  </p>
+    <p>To split the large file into different small files and store it in different locations.Through this we can achieve security </p>
+    <br><br><br><br><br><br><br><br><br><br>
 
   </div>
   <div class="columnproject1">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/back1.jpg?raw=true"  style="width:100%;height: 100%">
+    <img src="back6.jpg"  style="width:100%;height: 100%">
   </div>
 </div>
 </div>
@@ -812,16 +816,16 @@ box-shadow: 4px 4px 4px #00a78e;
     
   <div class="rowpro">
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/c.jpg?raw=true" class="pro" alt="Fjords" style="width:100%;height: 180px;">
+    <img src="c.jpg" class="pro" alt="Fjords" style="width:100%;height: 180px;">
   </div>
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/java.jpg?raw=true" class="pro" alt="Mountains" style="width:100%;height: 180px;">
+    <img src="java.jpg" class="pro" alt="Mountains" style="width:100%;height: 180px;">
   </div>
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/python3.jpg?raw=true" class="pro" alt="Forest" style="width:100%;height: 180px;">
+    <img src="python3.jpg" class="pro" alt="Forest" style="width:100%;height: 180px;">
   </div>
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/arduino.jpg?raw=true" class="pro" alt="Mountains" style="width:100%;height: 180px;">
+    <img src="arduino.jpg" class="pro" alt="Mountains" style="width:100%;height: 180px;">
   </div>
 </div>
 
@@ -833,22 +837,22 @@ box-shadow: 4px 4px 4px #00a78e;
     
   <div class="rowpro">
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/html.jpg?raw=true" class="pro" alt="Fjords" style="width:100%;height: 150px;">
+    <img src="html.jpg" class="pro" alt="Fjords" style="width:100%;height: 150px;">
   </div>
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/css1.png?raw=true" class="pro" alt="Mountains" style="width:100%;height: 150px;">
+    <img src="css1.png" class="pro" alt="Mountains" style="width:100%;height: 150px;">
   </div>
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/bootstrap.jpg?raw=true" class="pro" alt="Forest" style="width:100%;height: 150px;">
+    <img src="bootstrap.jpg" class="pro" alt="Forest" style="width:100%;height: 150px;">
   </div>
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/javascript.jpg?raw=true" class="pro" alt="Mountains" style="width:100%;height: 150px;">
+    <img src="javascript.jpg" class="pro" alt="Mountains" style="width:100%;height: 150px;">
   </div>
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/php1.png?raw=true" class="pro" alt="Mountains" style="width:100%;height: 150px;">
+    <img src="php1.png" class="pro" alt="Mountains" style="width:100%;height: 150px;">
   </div>
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/sql1.png?raw=true" class="pro" alt="Mountains" style="width:100%;height: 150px;">
+    <img src="sql1.png" class="pro" alt="Mountains" style="width:100%;height: 150px;">
   </div>
 </div>
 
@@ -860,16 +864,16 @@ box-shadow: 4px 4px 4px #00a78e;
     
   <div class="rowpro">
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/photoshop.jpg?raw=true" class="pro" alt="Fjords" style="width:100%;height: 180px;">
+    <img src="photoshop.jpg" class="pro" alt="Fjords" style="width:100%;height: 180px;">
   </div>
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/oracle.png?raw=true" class="pro" alt="Mountains" style="width:100%;height: 180px;">
+    <img src="oracle.png" class="pro" alt="Mountains" style="width:100%;height: 180px;">
   </div>
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/arduino3.jpg?raw=true" class="pro" alt="Forest" style="width:100%;height: 180px;">
+    <img src="arduino3.jpg" class="pro" alt="Forest" style="width:100%;height: 180px;">
   </div>
   <div class="columnpro">
-    <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/wordpress.jpg?raw=true" class="pro" alt="Mountains" style="width:100%;height: 180px;">
+    <img src="wordpress.jpg" class="pro" alt="Mountains" style="width:100%;height: 180px;">
   </div>
 </div>
 
@@ -879,28 +883,28 @@ box-shadow: 4px 4px 4px #00a78e;
 </div>
 
 
-<!--div id="programmingefficiency" style="background-color: #1b242f">
+<div id="programmingefficiency" style="background-color: #1b242f">
   <br>
   <h1 class="contact" style="text-align: center;padding:30px;color: #00a78e;"><b>Programming Efficiency </b></h1>
 <br>
 
 <div style="margin-left: 300px;">
-    <div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/hackerrank.jpg?raw=true" alt="Jane" style="width:100%;height: 220px;">
-      <div class="container">
-        <p><button class="button">HACKERRANK PROFILE</button></p>
+    <div class="rowhack">
+  <div class="columnhack">
+    <div class="cardhack">
+      <img src="hackerrank.jpg" alt="Jane" style="width:100%;height: 220px;">
+      <div class="containerhack">
+        <p><button class="buttonhack">HACKERRANK PROFILE</button></p>
       </div>
     </div>
   </div>
 
-  <div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/codewars.png?raw=true" alt="Jane" style="width:100%;height: 220px;">
-      <div class="container">
-        <p><button class="button">CODEWARS PROFILE</button></p>
+  <div class="rowhack">
+  <div class="columnhack">
+    <div class="cardhack">
+      <img src="codewars.png" alt="Jane" style="width:100%;height: 220px;">
+      <div class="containerhack">
+        <p><button class="buttonhack">CODEWARS PROFILE</button></p>
       </div>
     </div>
   </div>
@@ -915,7 +919,7 @@ box-shadow: 4px 4px 4px #00a78e;
 <br>
 <br>
 <br><br>
-</div-->
+</div>
 <div id="achievements" style="background-color: #e0e0e0">
   <br>
   <h1 class="contact" style="text-align: center;padding:30px;color: black;"><b>ACHIEVEMENTS</b></h1>
@@ -923,7 +927,7 @@ box-shadow: 4px 4px 4px #00a78e;
   <div class="row" style="background-color: #e0e0e0;">
   <div class="column">
     <div class="cardach">
-      <img class="cardimg" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/CC.jpg?raw=true" alt="Jane" style="width:100%;height: 300px;">
+      <img class="cardimg" src="cc.jpg" alt="Jane" style="width:100%;height: 300px;">
       <div class="container">
         <h2>Jane Doe</h2>
         <p class="title">CEO & Founder</p>
@@ -935,7 +939,7 @@ box-shadow: 4px 4px 4px #00a78e;
 
   <div class="column">
     <div class="cardach">
-      <img class="cardimg" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/maths.jpg?raw=true" alt="Mike" style="width:100%;height: 300px;">
+      <img class="cardimg" src="maths.jpg" alt="Mike" style="width:100%;height: 300px;">
       <div class="container">
         <h2>Mike Ross</h2>
         <p class="title">Art Director</p>
@@ -946,7 +950,7 @@ box-shadow: 4px 4px 4px #00a78e;
   </div>
   <div class="column">
     <div class="cardach">
-      <img class="cardimg" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/iot2.jpg?raw=true" alt="John" style="width:100%;height: 300px;">
+      <img class="cardimg" src="iot2.jpg" alt="John" style="width:100%;height: 300px;">
       <div class="container">
         <h2>John Doe</h2>
         <p class="title">Designer</p>
@@ -960,7 +964,7 @@ box-shadow: 4px 4px 4px #00a78e;
   </div>
   <div class="column">
     <div class="cardach">
-      <img class="cardimg" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/iot3.jpg?raw=true" alt="John" style="width:100%;height: 300px;">
+      <img class="cardimg" src="iot3.jpg" alt="John" style="width:100%;height: 300px;">
       <div class="container">
         <h2>John Doe</h2>
         <p class="title">Designer</p>
@@ -983,7 +987,7 @@ box-shadow: 4px 4px 4px #00a78e;
   <div class="row5" style="background-color: white;">
   <div class="column5">
     <div class="card5">
-      <img class="cardimg5" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/bigdata.jpg?raw=true" alt="Jane" style="width:100%;height: 300px;">
+      <img class="cardimg5" src="bigdata.jpg" alt="Jane" style="width:100%;height: 300px;">
       <div class="container5">
         <h2>Jane Doe</h2>
         <p class="title5">CEO & Founder</p>
@@ -994,7 +998,7 @@ box-shadow: 4px 4px 4px #00a78e;
   </div>
   <div class="column5">
     <div class="card5">
-      <img class="cardimg5" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/python1.jpg?raw=true" alt="Jane" style="width:100%;height: 300px;">
+      <img class="cardimg5" src="python1.jpg" alt="Jane" style="width:100%;height: 300px;">
       <div class="container5">
         <h2>Jane Doe</h2>
         <p class="title5">CEO & Founder</p>
@@ -1005,7 +1009,7 @@ box-shadow: 4px 4px 4px #00a78e;
   </div>
   <div class="column5">
     <div class="card5">
-      <img class="cardimg5" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/webdesign.jpg?raw=true" alt="Jane" style="width:100%;height: 300px;">
+      <img class="cardimg5" src="webdesign.jpg" alt="Jane" style="width:100%;height: 300px;">
       <div class="container5">
         <h2>Jane Doe</h2>
         <p class="title5">CEO & Founder</p>
@@ -1016,7 +1020,7 @@ box-shadow: 4px 4px 4px #00a78e;
   </div>
   <div class="column5">
     <div class="card5">
-      <img class="cardimg5" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/python2.jpg?raw=true" alt="Jane" style="width:100%;height: 300px;">
+      <img class="cardimg5" src="python2.jpg" alt="Jane" style="width:100%;height: 300px;">
       <div class="container5">
         <h2>Jane Doe</h2>
         <p class="title5">CEO & Founder</p>
@@ -1027,7 +1031,7 @@ box-shadow: 4px 4px 4px #00a78e;
   </div>
   <div class="column5">
     <div class="card5">
-      <img class="cardimg5" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/iot.jpg?raw=true" alt="Jane" style="width:100%;height: 300px;">
+      <img class="cardimg5" src="iot.jpg" alt="Jane" style="width:100%;height: 300px;">
       <div class="container5">
         <h2>Jane Doe</h2>
         <p class="title5">CEO & Founder</p>
@@ -1038,7 +1042,7 @@ box-shadow: 4px 4px 4px #00a78e;
   </div>
   <div class="column5">
     <div class="card5">
-      <img class="cardimg5" src=" https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/bigdata2.jpg?raw=true" alt="Jane" style="width:100%;height: 300px;">
+      <img class="cardimg5" src=" bigdata2.jpg" alt="Jane" style="width:100%;height: 300px;">
       <div class="container5">
         <h2>Jane Doe</h2>
         <p class="title5">CEO & Founder</p>
@@ -1052,7 +1056,7 @@ box-shadow: 4px 4px 4px #00a78e;
   </div>
   <div class="column5">
     <div class="card5">
-      <img class="cardimg5" src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/brain.jpg?raw=true" alt="Jane" style="width:100%;height: 300px;">
+      <img class="cardimg5" src="brain.jpg" alt="Jane" style="width:100%;height: 300px;">
       <div class="container5">
         <h2>Jane Doe</h2>
         <p class="title5">CEO & Founder</p>
@@ -1077,7 +1081,7 @@ box-shadow: 4px 4px 4px #00a78e;
     <div class="rowhack">
   <div class="columnhack">
     <div class="cardhack">
-      <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/python3.jpg?raw=true" alt="Jane" style="width:100%;height: 200px;">
+      <img src="python3.jpg" alt="Jane" style="width:100%;height: 200px;">
       <div class="containerhack">
         <h2>Jane Doe</h2>
         <p class="title">CEO & Founder</p>
@@ -1090,7 +1094,7 @@ box-shadow: 4px 4px 4px #00a78e;
   <div class="rowhack">
   <div class="columnhack">
     <div class="cardhack">
-      <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/webdesign.jpg?raw=true" alt="Jane" style="width:100%;height: 200px;">
+      <img src="webdesign.jpg" alt="Jane" style="width:100%;height: 200px;">
       <div class="containerhack">
         <h2>Jane Doe</h2>
         <p class="title">CEO & Founder</p>
@@ -1109,18 +1113,18 @@ box-shadow: 4px 4px 4px #00a78e;
 
 <div id="extra" style="margin: 0;padding: 0;">
   <div>
-  <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/dance1.jpg?raw=true" style="width:100%;margin: 0;padding: 0;">
+  <img src="dance1.jpg" style="width:100%;margin: 0;padding: 0;">
 </div>
 <div>
   
-  <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/marchpast.jpg?raw=true" alt="Nature" style="width:100%;margin: 0;padding: 0;">
+  <img src="marchpast.jpg" alt="Nature" style="width:100%;margin: 0;padding: 0;">
 
 </div>
 <div>
-  <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/marathon.jpg?raw=true" alt="Nature" style="width:100%;margin: 0;padding: 0;">
+  <img src="marathon.jpg" alt="Nature" style="width:100%;margin: 0;padding: 0;">
 </div>
 <div>
-  <img src="https://github.com/Sanjaykrishnamoorthi/Sanjaykrishnamoorthi.github.io/blob/master/images/all.jpg?raw=true" alt="Nature" style="width:100%;margin: 0;padding: 0;">
+  <img src="all.jpg" alt="Nature" style="width:100%;margin: 0;padding: 0;">
 </div>
 </div>
 </div>
